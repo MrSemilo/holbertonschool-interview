@@ -2,6 +2,7 @@
 
 '''UTF-8 validator'''
 
+
 def validUTF8(data):
     """validUTF8
     """
@@ -19,6 +20,8 @@ def validUTF8(data):
         if bit_count:
             bit_count -= 1
     return bit_count == 0
+
+
 def validUTF8_2(data):
     '''validUTF8_2'''
     byte_cnt = 0
