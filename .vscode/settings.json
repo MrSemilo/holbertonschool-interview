@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "sandpiles.h": "c"
+        "sandpiles.h": "c",
+        "search.h": "c"
     }
 }
