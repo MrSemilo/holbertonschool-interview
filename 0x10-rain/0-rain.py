@@ -1,7 +1,10 @@
 #!/usr/bin/python3
+
 """
-0_main
+rain
 """
+
+
 def rain(walls):
     left = water = lmax = rmax = 0
     right = len(walls) - 1
