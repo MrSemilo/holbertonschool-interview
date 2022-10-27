@@ -19,7 +19,7 @@ def makeChange(coins, total):
         return 0
 
     coins.sort(reverse=True)
-    
+
     i, moneda = (0, 0)
     valorTotal = total
     len_coins = len(coins)
